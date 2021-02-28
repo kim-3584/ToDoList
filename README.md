@@ -17,3 +17,4 @@ To do list iOS App
     - sceneWillResignActive : 앱을 보고 있던 중 전화가 걸려오는 등 <일시정지> 상황에 대처할 명령이 있을 때 호출되는 함수. User Data 손실을 막기 위한 코드를 작성할 수 있다.
 
 - Persistent Local Data Storage
+  - UserDefaults 
