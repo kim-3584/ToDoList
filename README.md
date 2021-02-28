@@ -18,5 +18,6 @@ To do list iOS App
 
 - Persistent Local Data Storage
   - NSCoder : 데이터를 미리 지정된 파일 경로로 인코딩하고 디코딩.
+  - 한 유형의 데이터를 인코딩해 plist에 쓸 수 있는 데이터로 만든 다음 해당 데이터가 필요할 때 plist 디코더를 사용하여 처음 유형의 데이터를 가져온다.
 
-- Ternary operator(삼항연산자)
+- Ternary operator(삼항연산자) : value = condition ? valueTrue : valueFalse
