@@ -53,9 +53,9 @@ class TodoListViewController: UITableViewController {
         
         saveItems()
         
-        tableView.reloadData()
+//        tableView.reloadData()
         
-        tableView.deselectRow(at: indexPath, animated: true)
+//        tableView.deselectRow(at: indexPath, animated: true)
     }
     //MARK: - Add New Items
     
@@ -66,12 +66,12 @@ class TodoListViewController: UITableViewController {
         let alert = UIAlertController(title: "Add New Todoey Item", message: "", preferredStyle: .alert)
         
         let action = UIAlertAction(title: "Add Item", style: .default) { (action) in
+            //what will happen once the user clicks the Add Item button on our UIAlert
             
             let newItem = Item(context: self.context)
             newItem.title = textField.text!
             newItem.done = false
             newItem.parentCategory = self.selectedCategory
-            //what will happen once the user clicks the Add Item button on our UIAlert
             self.itemArray.append(newItem)
             
             self.saveItems()
